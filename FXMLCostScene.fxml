@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528finalphase.FXMLCostSceneController">
+   <children>
+      <Label layoutX="149.0" layoutY="50.0" prefHeight="37.0" prefWidth="75.0" text="Total">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Total" layoutX="248.0" layoutY="50.0" prefHeight="37.0" prefWidth="92.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="119.0" prefHeight="37.0" prefWidth="75.0" text="Points">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Points" layoutX="248.0" layoutY="119.0" prefHeight="37.0" prefWidth="92.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="182.0" prefHeight="37.0" prefWidth="75.0" text="Status">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="Status" layoutX="248.0" layoutY="182.0" prefHeight="37.0" prefWidth="92.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutB" layoutX="146.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleLogoutB" prefHeight="20.0" prefWidth="296.0" text="Logout">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
