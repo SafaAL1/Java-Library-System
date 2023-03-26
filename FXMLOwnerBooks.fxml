@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528finalphase.FXMLOwnerBooksController">
+    <children>
+        <ListView fx:id="booksView" layoutX="0" layoutY="20" minHeight="250" minWidth="600" prefHeight="256.0" prefWidth="212.0" />
+        <Label fx:id="label" layoutX="320" layoutY="20" minHeight="16" minWidth="69" />
+        <Button fx:id="deleteB" layoutX="84.0" layoutY="360.0" onAction="#handleDeleteB" text="Delete book" />
+        <Button fx:id="backB" layoutX="468.0" layoutY="360.0" onAction="#handleBackB" prefHeight="30.0" prefWidth="85.0" text="Back" />
+      <TextField fx:id="bookNameTextF" layoutX="59.0" layoutY="300.0" />
+      <TextField fx:id="bookPriceTextF" layoutX="320.0" layoutY="300.0" />
+      <Label layoutX="20.0" layoutY="300.0" text="Name" />
+      <Label layoutX="274.0" layoutY="304.0" text="Price" />
+      <Button fx:id="AddB" layoutX="500.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleAddB" text="Add book" />
+      <Text fx:id="errortxt" layoutX="59.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="411.13671875" />
+      
+    </children>
+</AnchorPane>
