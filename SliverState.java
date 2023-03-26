@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package coe528finalphase;
+package finalphase;
 
 public class SilverState extends State{
     @Override
